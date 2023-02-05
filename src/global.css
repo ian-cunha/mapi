@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.visao-geral {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background: url("assets/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .visao-geral {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 30rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+    background: url("assets/bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+.mapi {
+  width: 100%;
+  height: auto;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.web-app {
+  width: 100%;
+  height: auto;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  background-color: black;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.btn-red {
+  background-color: #EE2D2D;
+  color: white;
+  font-weight: 600;
+  text-decoration-line: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: #EE2D2D;
+  box-shadow: 0px 10px 20px rgba(229, 46, 46, 0.4);
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  text-decoration-line: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 10px 20px rgba(34, 34, 34, 0.4);
+}
+
+.bi-box-arrow-in-down-right {
+  font-size: 12px;
+}
+
+.mais:hover {
+  background-color: #EE2D2D !important;
+  color: white !important;
+  border-radius: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-link:hover {
+  color: #EE2D2D !important;
+  transition: all 0.5s ease 0s;
+}
+
+.card-top {
+  width: 25vw;
+}
+
+@media (max-width: 768px) {
+  .card-top {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-top {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-top {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-top {
+    width: 90vw;
+  }
+}
+
+.logo-top {
+  width: 400px;
+}
+
+@media (max-width: 1200px) {
+  .logo-top {
+    width: 250px;
+  }
+}
+
+.text-top {
+  font-size: 1.9em;
+}
+
+@media (max-width: 1200px) {
+  .text-top {
+    font-size: 1.2em;
+  }
+}
+
+.mapi-text {
+  color: #EE2D2D;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+@media (max-width: 600px) {
+  .mapi-text {
+    color: #EE2D2D;
+    font-weight: 700;
+    font-size: 2.2em;
+  }
+}
+
+.mapi-sub {
+  color: black;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding: 0 300px 0 300px;
+}
+
+@media (max-width: 1200px) {
+  .mapi-sub {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mapi-sub {
+    color: black;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 0 24px 0 24px;
+  }
+}
+
+.top-button {
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+  color: #EE2D2D;
+  transition: all 0.5s ease 0s;
+}
+
+.top-button:hover {
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+  color: #46C6E7;
+}
