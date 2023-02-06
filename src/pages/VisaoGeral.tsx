@@ -17,7 +17,7 @@ function VisaoGeral() {
           <div className="card-body">
             <h5 className="card-title mb-4">Acesse o mapa de manutenções da sua região.</h5>
             <a href="#" className="btn-red card-link">Cadastre-se</a>
-            <a target="_blank" href={site} className="btn-black card-link"> Login <i className="bi bi-arrow-right-short"></i></a>
+            <a target="_blank" href={site} className="btn-black card-link">Login</a>
           </div>
         </div>
 

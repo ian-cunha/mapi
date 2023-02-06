@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar"
-import Dores from "./pages/Dores"
+import Prestador from "./pages/Prestador"
 import Footer from "./pages/Footer"
 import Gestao from "./pages/Gestao"
 import Mapi from "./pages/Mapi"
@@ -14,7 +14,7 @@ function App() {
       <Mapi />
       <WebApp />
       <Gestao />
-      <Dores />
+      <Prestador />
       <Footer />
       <a  href="#" className="top-button"><i className="bi bi-arrow-up-circle-fill fs-1"></i></a>
     </div>
