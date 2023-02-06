@@ -440,7 +440,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: white;
   padding: 20px 0 20px 0;
 }
 
@@ -512,8 +512,7 @@
   height: auto;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background: rgb(238, 45, 45);
-  background: linear-gradient(31deg, rgba(238, 45, 45, 1) 0%, rgba(88, 17, 17, 1) 47%, rgba(0, 0, 0, 1) 100%);
+  background-color: black;
   color: white;
   background-position: center;
   background-repeat: no-repeat;
