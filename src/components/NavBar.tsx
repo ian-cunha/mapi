@@ -24,8 +24,8 @@ function NavBar() {
                 Mais
               </a>
               <ul className="dropdown-menu p-3 text-center">
-                <li><a className="mais dropdown-item fw-medium" href="#dores">Dores das imobiliárias <i className="bi bi-box-arrow-in-down-right"></i></a></li>
-                <li><a className="mais dropdown-item fw-medium" href="#gestao">Gestão de Manutenções <i className="bi bi-box-arrow-in-down-right"></i></a></li>
+                <li><a className="mais dropdown-item fw-medium" href="#doresimob">Dores das imobiliárias <i className="bi bi-box-arrow-in-down-right"></i></a></li>
+                <li><a className="mais dropdown-item fw-medium" href="#wpp">Entre em contato <i className="bi bi-box-arrow-in-down-right"></i></a></li>
               </ul>
             </li>
           </ul>

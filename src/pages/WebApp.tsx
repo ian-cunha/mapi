@@ -1,18 +1,21 @@
+import smartphone from "../assets/smartphone.svg";
+
 function WebApp() {
   return (
-    <div className="web-app text-center d-flex flex-sm-row flex-column justify-content-between align-items-center">
+    <div className="web-app text-center d-flex flex-sm-row flex-column justify-content-evenly align-items-center">
     
-    <div className="col-4">
-      <h3>Informe DE FORMA EFETIVA onde estão as suas demandas de manutenções.</h3>
-      <button>Agilidade</button>
-      <button>Transparência</button>
-      <button>Inovação</button>
-      <br/>
-      <button>No MAPi você recebe orçamentos online gratuitamentee avaliaoseufornecedor</button>
+    <div className="col-4 d-flex flex-column justify-content-between align-items-center">
+      <h3 className="btext">Informe de <b className="boldtext">forma efetiva</b> onde estão as suas demandas de manutenções.</h3>
+      <div className="d-flex flex-sm-row flex-column">
+      <button className="bbox1">Agilidade</button>
+      <button className="bbox2">Transparência</button>
+      <button className="bbox3">Inovação</button>
+      </div>
+      <button className="bbox4">No MAPi você recebe orçamentos online gratuitamentee avaliar o seu fornecedor</button>
     </div>
 
-    <div className="col-4">
-      <img src="" alt="Smartphone" />
+    <div className="col-4 imgorg">
+      <img className="smartphone" src={smartphone} alt="Smartphone" />
     </div>
     
     </div>
