@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 function NavBar() {
 
-  const site = "https://www.meumapi.com/"
+  const site = "https://app.smartimobiliario.com.br/MAPi"
 
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
@@ -25,7 +25,7 @@ function NavBar() {
               </a>
               <ul className="dropdown-menu p-3 text-center">
                 <li><a className="mais dropdown-item fw-medium" href="#prestador">Prestador de serviço <i className="bi bi-box-arrow-in-down-right"></i></a></li>
-                <li><a className="mais dropdown-item fw-medium" href="#wpp">Entre em contato <i className="bi bi-box-arrow-in-down-right"></i></a></li>
+                <li><a className="mais dropdown-item fw-medium" target="_blank" href="https://api.whatsapp.com/send?phone=5581999170327&text=Ol%C3%A1,%20tenho%20interesse%20no%20Mapi!">Entre em contato <i className="bi bi-box-arrow-in-down-right"></i></a></li>
               </ul>
             </li>
           </ul>

@@ -15,7 +15,7 @@ function Gestao() {
           <li className="ligest">Inclua Suas Manutenções</li>
           <li className="ligest">Defina Quantas Propostas Deseja Receber, Acompanhe os Atendimentos, Aprove as Cotações e Avalie o Prestador de Serviço.</li>
         </ul>
-        <a className="wpp-gestao" href="http://"><i className="bi bi-whatsapp icong-wpp"></i> Conheça todos os benefícios</a>
+        <a className="wpp-gestao" target="_blank" href="https://api.whatsapp.com/send?phone=5581999170327&text=Ol%C3%A1,%20tenho%20interesse%20no%20Mapi!"><i className="bi bi-whatsapp icong-wpp"></i> Conheça todos os benefícios</a>
       </div>
 
     </div>
