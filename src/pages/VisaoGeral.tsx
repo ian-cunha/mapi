@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 function VisaoGeral() {
 
-  const site = "https://www.meumapi.com/"
+  const site = "https://app.smartimobiliario.com.br/MAPi"
 
   return (
     <div className="visao-geral">
@@ -16,7 +16,7 @@ function VisaoGeral() {
         <div className="card text-center p-3 card-top">
           <div className="card-body">
             <h5 className="card-title mb-4">Acesse o mapa de manutenções da sua região.</h5>
-            <a href="#" className="btn-red card-link">Cadastre-se</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5581999170327&text=Ol%C3%A1,%20tenho%20interesse%20no%20Mapi!" className="btn-red card-link">Cadastre-se</a>
             <a target="_blank" href={site} className="btn-black card-link">Login</a>
           </div>
         </div>
