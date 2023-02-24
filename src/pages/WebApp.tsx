@@ -11,7 +11,7 @@ function WebApp() {
       <button className="bbox2">Transparência</button>
       <button className="bbox3">Inovação</button>
       </div>
-      <button className="bbox4">No MAPi você recebe orçamentos online gratuitamentee avaliar o seu fornecedor</button>
+      <button className="bbox4">No MAPi os melhores prestadores de serviços vão até você!</button>
     </div>
 
     <div className="col-4 imgorg">
