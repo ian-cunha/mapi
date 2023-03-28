@@ -11,7 +11,7 @@ function Footer() {
           <a className="btn-facebook" target="_blank" href="https://www.facebook.com/meumapi"><i className="bi bi-facebook"></i></a>
         </div>
       </div>
-      <p className="text-center copy">© 2022 Mapi, Todos os direitos reservados.</p>
+      <p className="text-center copy">© 2023 Mapi, Todos os direitos reservados.</p>
     </div>
   )
 }
