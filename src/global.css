@@ -35,6 +35,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  animation: bgAnim 20s ease 0s 1 normal forwards;
 }
 
 @media (max-width: 600px) {
@@ -50,6 +51,7 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    animation: bgAnimMobile 20s ease 0s 1 normal forwards;
   }
 }
 
@@ -169,6 +171,7 @@
 
 .logo-top {
   width: 450px;
+  animation: AnimCenter 1s ease 0s 1 normal forwards;
 }
 
 @media (max-width: 1200px) {
@@ -243,7 +246,7 @@
 
 .btext {
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2em;
   width: 600px;
   margin: 10px 24px 10px 24px;
 }
@@ -264,10 +267,33 @@
   }
 }
 
+.btext2 {
+  text-align: center;
+  font-size: 1em;
+  width: 600px;
+  margin: 10px 24px 10px 24px;
+}
+
+@media (max-width: 1024px) {
+  .btext2 {
+    text-align: center;
+    font-size: 1em;
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btext2 {
+    text-align: center;
+    font-size: 1em;
+    width: 350px;
+  }
+}
+
 .bbox1 {
   background-color: #1E87C8;
   color: white;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px 20px 5px 20px;
   text-decoration-line: none;
   border: none;
@@ -278,7 +304,7 @@
 .bbox2 {
   background-color: #FF8600;
   color: white;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px 20px 5px 20px;
   text-decoration-line: none;
   border: none;
@@ -289,7 +315,7 @@
 .bbox3 {
   background-color: #1E1E1E;
   color: white;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px 20px 5px 20px;
   text-decoration-line: none;
   border: none;
@@ -332,6 +358,7 @@
 
 .smartphone {
   width: 300px;
+  animation: AnimCenter 1s ease 0s 1 normal forwards;
 }
 
 @media (max-width: 600px) {
@@ -347,6 +374,7 @@
 
 .mapa {
   width: 500px;
+  animation: AnimCenter 1s ease 0s 1 normal forwards;
 }
 
 @media (max-width: 600px) {
@@ -551,4 +579,38 @@ a.btn-pres2:hover {
   background-color: white;
   color: #FF8600;
   box-shadow: 0px 10px 20px rgba(214, 146, 90, 0.4);
+}
+
+@keyframes AnimCenter {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bgAnim {
+  0% {
+    background-position: center top;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center top;
+    background-size: 150%;
+  }
+}
+
+@keyframes bgAnimMobile {
+  0% {
+    background-position: center top;
+    background-size: 270%;
+  }
+
+  100% {
+    background-position: center top;
+    background-size: 370%;
+  }
 }
