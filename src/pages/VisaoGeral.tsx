@@ -10,7 +10,7 @@ function VisaoGeral() {
 
         <div className="text-center">
           <img className="logo-top d-inline-block align-text-top" src={logo} alt="Mapi" />
-          <h1 className="text-top text-light">Manutenção para Imóveis</h1>
+          <h1 className="text-top text-light">Manutenções para Imóveis</h1>
         </div>
 
         <div className="card text-center p-3 card-top">
